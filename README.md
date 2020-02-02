@@ -38,6 +38,13 @@ adicionar no arquivo package.json um novo script
 "compile": "tsc"
 ```
 
+```
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+},
+```
+
 
 Após isso executar o comando:
 ```
