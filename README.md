@@ -48,6 +48,19 @@ npm run compile
 Para que o arquivo .js não seja gerado com erros de compilação é necessário colocar uma nova propriedade em tsconfig.json
 
 
+Para não precisar sempre rodar o comando de compilação é possível adicionar mais um script em package.json:
+```
+"start": "tsc -w"
+```
+
+```
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w"
+},
+```
+
 Atualização do npm:
 ```
 npm i -g npm-upgrade
