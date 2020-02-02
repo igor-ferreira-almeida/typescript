@@ -65,3 +65,19 @@ Atualização do npm:
 ```
 npm i -g npm-upgrade
 ```
+
+## Propriedades de tsconfig.json
+
+```
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "js/",
+        "noEmitOnError": true, // não deixa gerar os arquivos .js quando há erros de compilação
+        "noImplicitAny": true // obriga os atributos e variáveis a serem tipados 
+    },
+    "include": [
+        "ts/**/*"
+    ]
+}
+```
