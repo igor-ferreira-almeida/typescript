@@ -1,12 +1,6 @@
 
 # Preparando o ambiente
 
-Atualização do npm
-```
-npm i -g npm-upgrade
-```
-
-
 Criar o package.json
 ```
 npm init
@@ -53,3 +47,8 @@ npm run compile
 
 Para que o arquivo .js não seja gerado com erros de compilação é necessário colocar uma nova propriedade em tsconfig.json
 
+
+Atualização do npm:
+```
+npm i -g npm-upgrade
+```
