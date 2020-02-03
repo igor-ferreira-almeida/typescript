@@ -44,6 +44,7 @@ Após isso executar o comando:
 ```
 npm run compile
 ```
+Obs.: O arquivo app.ts deve ser criado para que a compilação funcione
 
 Para que o arquivo .js não seja gerado com erros de compilação é necessário colocar uma nova propriedade em tsconfig.json
 
